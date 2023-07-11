@@ -106,9 +106,32 @@
 .social-media-images{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .social-img{
     width: 100%;
 }
+
+/* latest update related style */
+
+.latest-update{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+    background-image: url("./asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+
+}
+
+.update-title{
+    padding: 50px;
+}
+
+.update-description{
+    /* padding: 50px; */
+}
+
