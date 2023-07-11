@@ -44,4 +44,42 @@
     padding: 15px 20px;
     color: white;
     border: none;
+    border-radius: 5px;
+}
+
+/* deal section style */
+
+.deal-container{
+    display: flex;
+    /* width: 850px;
+    height: 620px; */
+    background: rgba(229, 84, 115, 0.10);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.deal-content{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.deal-title{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.primary-color{
+    color: #E55473;
+}
+
+.deal-description{
+    width: 430px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.deal-img{
+    width: 318px;
+    height: 420px;
 }
