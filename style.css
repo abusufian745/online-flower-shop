@@ -51,12 +51,11 @@
 
 .deal-container{
     display: flex;
-    /* width: 850px;
-    height: 620px; */
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .deal-content{
@@ -82,4 +81,34 @@
 .deal-img{
     width: 318px;
     height: 420px;
+}
+
+/* Social media related style */
+
+.social-links{
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.social-description{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.social-images{
+    width: 250px;
+    height: 290px;
+}
+
+.social-media-images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-img{
+    width: 100%;
 }
