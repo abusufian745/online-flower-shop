@@ -12,8 +12,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-
 }
 
 .banner-text {
@@ -47,13 +45,6 @@
     color: white;
     border: none;
     border-radius: 5px;
-}
-
-/* featured related style */
-
-.featured-container{
-    text-align: center;
-    margin-top: 100px;
 }
 
 /* deal section style */
@@ -134,15 +125,19 @@
     background-repeat: no-repeat;
     margin-top: 50px;
     margin-bottom: 100px;
-
 }
 
 .update-title {
     padding: 50px;
+    font-size: 45px;
 }
 
-.update-description {
-    /* padding: 50px; */
+.email-update{
+    width: 700px;
+    height: 65px;
+    margin-top: 25px;
+    padding-left: 10px;
+    margin-right: 10px;
 }
 
 /* footer related style */
