@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner related style */
+
+.banner-container{
+    width: 1920px;
+    height: 810px;  
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text{
+    max-width: 800px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 20px;
+    width: 580px;
+    margin-bottom: 20px;
+}
+
+.banner-img{
+    width: 300px;
+    padding: 200px;
+    margin-right: 230px;
+}
+
+.btn{
+    background-color: #E55473;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+}
