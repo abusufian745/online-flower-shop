@@ -5,41 +5,43 @@
 
 /* banner related style */
 
-.banner-container{
-    width: 1920px;
-    height: 810px;  
+.banner-container {
+    width: 100%;
+    height: 800px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+
 }
 
-.banner-text{
+.banner-text {
     max-width: 800px;
     padding: 50px;
     margin-bottom: 20px;
     margin-left: 200px;
 }
 
-.banner-title{
-    font-size: 80px;
+.banner-title {
+    font-size: 58px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 20px;
     width: 580px;
     margin-bottom: 20px;
 }
 
-.banner-img{
+.banner-img {
     width: 300px;
     padding: 200px;
-    margin-right: 230px;
+    margin-right: 250px;
 }
 
-.btn{
+.btn {
     background-color: #E55473;
     padding: 15px 20px;
     color: white;
@@ -49,7 +51,7 @@
 
 /* deal section style */
 
-.deal-container{
+.deal-container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: space-around;
@@ -58,64 +60,64 @@
     margin-bottom: 100px;
 }
 
-.deal-content{
+.deal-content {
     text-align: center;
     padding-bottom: 20px;
 }
 
-.deal-title{
+.deal-title {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-.primary-color{
+.primary-color {
     color: #E55473;
 }
 
-.deal-description{
+.deal-description {
     width: 430px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.deal-img{
+.deal-img {
     width: 318px;
     height: 420px;
 }
 
 /* Social media related style */
 
-.social-links{
+.social-links {
     text-align: center;
     margin-top: 20px;
     width: 80%;
     margin: auto;
 }
 
-.social-description{
+.social-description {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
 }
 
-.social-images{
+.social-images {
     width: 250px;
     height: 290px;
 }
 
-.social-media-images{
+.social-media-images {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.social-img{
+.social-img {
     width: 100%;
 }
 
 /* latest update related style */
 
-.latest-update{
+.latest-update {
     width: 80%;
     margin: auto;
     height: 300px;
@@ -127,11 +129,18 @@
 
 }
 
-.update-title{
+.update-title {
     padding: 50px;
 }
 
-.update-description{
+.update-description {
     /* padding: 50px; */
 }
 
+footer {
+    background-color: #111010;
+    width: 100%;
+    height: 449px;
+    color: white;
+    text-align: center;
+}
